@@ -1,0 +1,67 @@
+@mixin font($font-family, $font-file, $font-weight) {
+    @font-face {
+      font-family: $font-family;
+      // src: local($font-family), url($font-file+'.eot');
+      src: local($font-family),
+          //  url($font-file+'.eot?#iefix') format('embedded-opentype'),
+           url($font-file+'.woff') format('woff');
+          //  url($font-file+'.ttf') format('truetype'),
+          //  url($font-file+'.svg#'+$font-family) format('svg');
+      font-weight: $font-weight;
+      font-style: normal;
+      font-display: swap;
+    }
+  }
+  @include font('Raleway', '~@/assets/font/Raleway-Bold', '700');
+  @include font('Raleway', '~@/assets/font/Raleway-Regular', '400');
+  @include font('Raleway', '~@/assets/font/Raleway-Light', '200');
+  @include font('Raleway', '~@/assets/font/Raleway-ExtraLight', '100');
+  @include font('SquarePeg', '~@/assets/font/SquarePeg-Regular', 'normal');
+  
+  .fw-bolder{
+    font-weight: bolder;
+  }
+  .fw-400{
+    font-weight: 400;
+  }
+  .fw-500{
+    font-weight: 500;
+  }
+  .fw-600{
+    font-weight: 600;
+  }
+  .fw-700{
+    font-weight: 700;
+  }
+  
+  .fs-10{
+    font-size: 10px;
+  }
+  .fs-11{
+    font-size: 11px;
+  }
+  .fs-12{
+    font-size: 12px;
+  }
+  .fs-13{
+    font-size: 13px;
+  }
+  .fs-14{
+    font-size: 14px;
+  }
+  .fs-15{
+    font-size: 15px;
+  }
+  .fs-16{
+    font-size: 16px;
+  }
+  .fs-17{
+    font-size: 17px;
+  }
+  .fs-18{
+    font-size: 18px;
+  }
+  
+  .text-underline { 
+    text-decoration: underline;
+  }
