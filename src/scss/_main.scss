@@ -49,6 +49,11 @@ body{
     }
 }
 
+::selection {
+	color: #fff;
+	background: var(--color-dark);
+}
+
 [data-scroll-container]{
 	@include max576px{
 		padding-top: 4rem;
