@@ -2,6 +2,7 @@ const { defineConfig } = require('@vue/cli-service')
 const path = require('path');
 const DirectoryNamedWebpackPlugin = require('directory-named-webpack-plugin');
 module.exports = defineConfig({
+  publicPath: "/web-portfolio/",
   transpileDependencies: true,
   css: {
     loaderOptions: {
