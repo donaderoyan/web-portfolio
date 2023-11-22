@@ -25,7 +25,7 @@
                                 <div class="footer-link_arrow-w">
                                     <img :src="require('@/assets/pixel-arrow-white.png')" loading="lazy" width="14" height="13" alt="black arrow" class="footer-link_arrow">
                                 </div>
-                                <div class="email">contact@donaderoyan.com</div>
+                                <div class="email">donaderoyan@gmail.com</div>
                             </a>
                     </div>
                 </div>
