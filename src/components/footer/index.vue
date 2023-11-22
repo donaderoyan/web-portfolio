@@ -21,7 +21,7 @@
                     </div>
                     <div class="footer-center_cta">
                             <div class="footer-meta enter-y delay-1">Drop me an email:</div>
-                            <a href="mailto:contact@donaderoyan.com" class="mailme footer-link w-inline-block enter-y delay-2">
+                            <a href="mailto:donaderoyan@gmail.com" class="mailme footer-link w-inline-block enter-y delay-2">
                                 <div class="footer-link_arrow-w">
                                     <img :src="require('@/assets/pixel-arrow-white.png')" loading="lazy" width="14" height="13" alt="black arrow" class="footer-link_arrow">
                                 </div>
